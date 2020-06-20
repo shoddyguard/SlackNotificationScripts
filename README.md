@@ -1,9 +1,5 @@
 # SlackNotificationScripts
-This collection of scripts was born out of the need to find a simple and effective way of scripting notifications to Slack for various shell based tasks/workflows.
-
-* [Python3](##NotifySlack.py)
-* [PowerShell](##NotifySlack.ps1)  
-* [PowerShell Module](###NotifySlack.psm1)  
+This collection of scripts was born out of the need to find a simple and effective way of scripting notifications to Slack for various shell based tasks/workflows. 
 
 ## NotifySlack.py
 Python3 Script
@@ -22,7 +18,7 @@ Python3 Script
 `NotifySlack.py --message 'Hello, world!' --webhook 'https://hooks.slack.com/my-webhook' --colour #FF0000 --push 'Foo Bar'`
 This would result in the 'Hello, world!' message being posted to the channel linked to the webhook, the message would have a red stripe alongside it and a pop-up notification entitled 'Foo Bar'
 
-## NotifySlack.ps1
+## [NotifySlack.ps1](#powershell-script)
 Windows PowerShell Script
 
 #### Usage
