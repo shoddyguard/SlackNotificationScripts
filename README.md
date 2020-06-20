@@ -1,9 +1,9 @@
 # SlackNotificationScripts
 This collection of scripts was born out of the need to find a simple and effective way of scripting notifications to Slack for various shell based tasks/workflows.
 
-[Python3](#NotifySlack.py (Python3 Script))
-[PowerShell](#NotifySlack.ps1 (Windows PowerShell Script))  
-[PowerShell Module](#NotifySlack.psm1 (Windows PowerShell Module))  
+* [Python3](##NotifySlack.py (Python3 Script))
+* [PowerShell](##NotifySlack.ps1 (Windows PowerShell Script))  
+* [PowerShell Module](###NotifySlack.psm1 (Windows PowerShell Module))  
 
 ## NotifySlack.py (Python3 Script)
 
