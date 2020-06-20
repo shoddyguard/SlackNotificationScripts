@@ -70,5 +70,11 @@ if ($push)
 @{
     'text' = $message
 }
-
-invoke-restmethod -Uri $webhook -Method Post -Body (ConvertTo-Json $slackbody)
+try
+{
+    invoke-restmethod -Uri $webhook -Method Post -Body (ConvertTo-Json $slackbody) -ErrorAction Stop
+}
+catch
+{
+    throw "Failed to send Slack notification.$($_.Exception.Message)"
+}
